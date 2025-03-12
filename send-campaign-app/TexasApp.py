@@ -119,7 +119,7 @@ def format_ads(ads):
     return formatted_ads
 
 def insert_data_into_template(scraped_headlines, ads):
-    template_file = 'texas_templates.html'
+    template_file = os.path.join(os.path.dirname(__file__), "texas_templates.html")
     try:
         with open(template_file, 'r', encoding='utf-8') as file:
             template = file.read()
