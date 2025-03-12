@@ -1,0 +1,9 @@
+streamlit
+requests
+pandas
+bs4
+datetime
+pytz
+random
+urllib.parse
+python-dateutil
