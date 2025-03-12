@@ -1,9 +1,6 @@
-streamlit
+streamlit=
 requests
 pandas
-bs4
-datetime
+beautifulsoup4
 pytz
-random
-urllib.parse
 python-dateutil
